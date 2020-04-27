@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="main-content">
+    <!-- HEADER -->
     <header>
       <Navbar></Navbar>
     </header>
@@ -25,61 +26,6 @@
     <!-- FOOTER -->
     <Footer class="section-footer"></Footer>
   </div>
-
-  <!-- <footer id="footer" class="section-footer">
-    </footer> -->
-  <!-- <div class="flex-container section-bottom">
-      <div class="flex-item">
-        <div class="text-group">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            minima nesciunt impedit voluptas, labore sunt animi optio at numquam
-            ex. Eos, fugit? Vero maiores velit accusantium quaerat accusamus
-            voluptas eaque! Omnis aliquid aspernatur praesentium itaque ex
-            ducimus velit amet officiis aut deleniti facilis rerum molestiae.
-          </p>
-          <form action="" class="form-input">
-            <input class="input-email" type="email" />
-            <button class="btn">Send</button>
-          </form>
-        </div>
-      </div>
-      <div class="flex-item bg-img"></div>
-    </div> -->
-  <!-- <div class="flex-container">
-      <div class="flex-item">
-        <div class="form-group">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            minima nesciunt impedit voluptas, labore sunt animi optio at numquam
-            ex. Eos, fugit? Vero maiores velit accusantium quaerat accusamus
-            voluptas eaque! Omnis aliquid aspernatur praesentium itaque ex
-            ducimus velit amet officiis aut deleniti facilis rerum molestiae.
-          </p>
-          <form action="" class="form-input">
-            <input class="input-text" type="email" />
-            <button class="btn">Send</button>
-          </form>
-        </div>
-      </div>
-      <div class="flex-item bg-img">
-        <img class="bg-img" src="@/assets/illustration-2.svg" alt="" />
-      </div>
-    </div> -->
-  <!-- <div style="width:100%;">
-      <img
-        src="@/assets/bg-curve-desktop.svg"
-        class="bg-img-desk"
-        style="heigth:100%"
-        alt=""
-      />
-    </div> -->
 </template>
 
 <script>
@@ -206,20 +152,6 @@ header {
   height: 100%;
   max-height: 75px;
 }
-/* Forma antiga de bg bottom */
-/*
-.bg-curve {
-   background-image: url("assets/bg-curve-desktop.svg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0% 110%;
-}
-@media screen and (max-width: 768px) {
-  .bg-curve {
-    background-position: 0% 100%;
-  }
-}
-*/
 
 @media screen and (max-width: 768px) {
   .section-top .flex-container,
