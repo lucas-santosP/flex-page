@@ -6,9 +6,21 @@
           <img src="@/assets/logo-light.svg" alt="" />
         </li>
         <li>
+          <img
+            src="@/assets/icon-phone.svg"
+            alt="phone"
+            style="margin-right:10px"
+          />
           Phone: +1-543-123-4567
         </li>
-        <li>example@fylo.com</li>
+        <li>
+          <img
+            src="@/assets/icon-email.svg"
+            alt="email"
+            style="margin-right:10px"
+          />
+          example@fylo.com
+        </li>
       </ul>
 
       <ul>
@@ -26,13 +38,13 @@
 
       <ul>
         <li>
-          <a href="#"><img src="@/assets/icon-email.svg" alt=""/></a>
+          <a href="#"><i class="fab fa-facebook social-icon"></i></a>
         </li>
         <li>
-          <a href="#"><img src="@/assets/icon-phone.svg" alt=""/></a>
+          <a href="#"><i class="fab fa-twitter social-icon"></i></a>
         </li>
         <li>
-          <a href="#"><img src="@/assets/icon-phone.svg" alt=""/></a>
+          <a href="#"><i class="fab fa-instagram social-icon"></i></a>
         </li>
       </ul>
     </nav>
@@ -94,6 +106,7 @@ ul li a {
 }
 ul li a:hover {
   text-decoration: underline;
+  color: hsl(228, 46%, 70%);
 }
 
 ul:last-of-type {
@@ -102,6 +115,12 @@ ul:last-of-type {
 }
 ul:last-of-type li {
   margin: auto 0.75rem;
+}
+.social-icon {
+  font-size: 1.5rem;
+}
+.social-icon:hover {
+  color: hsl(228, 46%, 70%);
 }
 .footer-paragraph {
   font-size: 0.75rem;
