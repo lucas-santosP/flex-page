@@ -27,7 +27,6 @@ export default {
   padding: 0 2.5rem;
   font-size: clamp(0.8rem, 3vw, 1rem);
   font-family: var(--ft-secondary);
-  color: var(--dark-blue);
   /* border-bottom: rebeccapurple solid 2px; */
   width: 100%;
   max-width: 1500px;
@@ -48,6 +47,9 @@ export default {
 }
 .menu li {
   margin: 0 1rem;
+}
+.menu li a {
+  color: var(--dark-blue);
 }
 @media screen and (max-width: 768px) {
   .navbar {
