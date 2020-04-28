@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/flex-page/",
+  publicPath: "/fylo-landing-page-vue/",
 };
