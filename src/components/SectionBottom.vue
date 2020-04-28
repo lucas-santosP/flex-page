@@ -11,11 +11,11 @@
       </div>
     </div>
     <div class="flex-item">
-      <form action="" class="form-input">
+      <form class="form-input">
         <input
           class="input-email"
           type="email"
-          id="email"
+          id="email2"
           placeholder="Enter your email..."
           aria-label="email"
         />

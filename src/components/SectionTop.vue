@@ -12,7 +12,7 @@
           and co-workers.
         </p>
       </div>
-      <form action="" class="form-input">
+      <form class="form-input">
         <input
           class="input-email"
           type="email"
