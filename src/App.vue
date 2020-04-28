@@ -90,7 +90,7 @@ header {
 
 /* texts */
 .title {
-  font-size: clamp(1.2rem, 3.5vw, 2.5rem);
+  font-size: clamp(1.4rem, 3.5vw, 2.5rem);
   line-height: 1.5;
   font-weight: 700;
   margin: 0.5rem 0;

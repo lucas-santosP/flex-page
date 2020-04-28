@@ -26,7 +26,6 @@ export default {
   padding: 0 2.5rem;
   font-size: clamp(0.8rem, 3vw, 1rem);
   font-family: var(--ft-secondary);
-  /* border-bottom: rebeccapurple solid 2px; */
   width: 100%;
   max-width: 1500px;
 }
@@ -35,7 +34,7 @@ export default {
   justify-self: flex-start;
 }
 .img-logo {
-  width: clamp(5rem, 15vw, 6.5rem);
+  width: clamp(5rem, 15vw, 10rem);
 }
 .menu {
   flex: 1;
