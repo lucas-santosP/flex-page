@@ -4,9 +4,9 @@
       <img class="img-logo" src="@/assets/logo.svg" alt="" />
     </div>
     <ul class="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#mid">About</a></li>
-      <li><a href="#footer">Contanct</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#mid">Team</a></li>
+      <li><a href="#footer">Sign In</a></li>
     </ul>
   </nav>
 </template>
@@ -34,7 +34,7 @@ export default {
   justify-self: flex-start;
 }
 .img-logo {
-  width: clamp(5rem, 15vw, 10rem);
+  width: clamp(5rem, 15vw, 9rem);
 }
 .menu {
   flex: 1;
