@@ -24,7 +24,7 @@
       <SectionBottom></SectionBottom>
     </div>
     <!-- FOOTER -->
-    <Footer class="section-footer"></Footer>
+    <Footer id="footer" class="section-footer"></Footer>
   </div>
 </template>
 
@@ -48,6 +48,7 @@ header {
   align-items: center;
   width: 100%;
 }
+
 .main-content {
   display: flex;
   justify-content: center;
@@ -129,7 +130,13 @@ header {
   background-color: hsl(224, 93%, 58%);
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
+.btn:hover {
+  background-color: hsl(224, 92%, 64%);
+  transform: scale(1.02);
+}
+
 .section-mid {
   background-color: #f8f8fe;
 }

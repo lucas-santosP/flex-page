@@ -4,9 +4,9 @@
       <img class="img-logo" src="@/assets/logo.svg" alt="" />
     </div>
     <ul class="menu">
-      <li><a href="#top">Home</a></li>
+      <li><a href="#">Home</a></li>
       <li><a href="#mid">About</a></li>
-      <li><a href="#bottom">Contanct</a></li>
+      <li><a href="#footer">Contanct</a></li>
     </ul>
   </nav>
 </template>
@@ -17,7 +17,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .navbar {
   display: flex;
@@ -50,6 +49,9 @@ export default {
 }
 .menu li a {
   color: var(--dark-blue);
+}
+.menu li a:hover {
+  opacity: 0.7;
 }
 @media screen and (max-width: 768px) {
   .navbar {

@@ -24,27 +24,27 @@
       </ul>
 
       <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Press</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="#footer">About Us</a></li>
+        <li><a href="#footer">Jobs</a></li>
+        <li><a href="#footer">Press</a></li>
+        <li><a href="#footer">Blog</a></li>
       </ul>
 
       <ul>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Privacy</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+        <li><a href="#footer">Terms</a></li>
+        <li><a href="#footer">Privacy</a></li>
       </ul>
 
       <ul>
         <li>
-          <a href="#"><i class="fab fa-facebook social-icon"></i></a>
+          <a href="#footer"><i class="fab fa-facebook social-icon"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+          <a href="#footer"><i class="fab fa-twitter social-icon"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+          <a href="#footer"><i class="fab fa-instagram social-icon"></i></a>
         </li>
       </ul>
     </nav>
@@ -143,7 +143,6 @@ ul:last-of-type li {
     align-self: center;
   }
   .footer-text {
-    display: none;
     justify-content: center;
   }
 }
