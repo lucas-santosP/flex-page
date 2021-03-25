@@ -10,7 +10,7 @@
 
 ## Demo
 
-Demonstration online by [GitHub Pages](https://pages.github.com) on this [link](https://lucas-santosp.github.io/fylo-landing-page-vue/).
+Demonstration online by [GitHub Pages](https://pages.github.com) on this [link](https://lucas-santosp.github.io/landing-page-vue/).
 
 ## Installation
 
